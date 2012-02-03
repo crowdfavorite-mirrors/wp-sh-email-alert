@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Form */
+form.shea_form{
+	display:block;
+	width:100%;
+	float:left;
+	margin:20px auto;
+}
+form.shea_form label{
+	width:100px;
+	float:left;
+}
+form.shea_form input.shea_field{
+	width:200px;
+}
+form.shea_form div.shea_msg{
+	display:none;
+	float:left;
+	width:90%;
+	padding:5px;
+	border:1px solid #0F6;
+}
+form.shea_form div.error{
+	border:1px solid #F00;
+}
+form.shea_form div.waiting{
+	border:1px solid #0F6;
+}
